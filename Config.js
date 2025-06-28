@@ -3,28 +3,28 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Contact details
-global.ownernomer = process.env.OWNER_NOMER || "2348109263390";
+global.ownernomer = process.env.OWNER_NOMER || "256785924981";
 global.ytname = process.env.YT_NAME || "YT: @EliteProTech";
 global.socialm = process.env.SOCIAL_M || "GitHub: EliteProTech";
-global.location = process.env.LOCATION || "Nigeria, Port Harcourt";
+global.location = process.env.LOCATION || "Uganda";
 
 // Creator details
-global.ownernumber = process.env.OWNER_NUMBER || '2348109263390';
-global.ownername = process.env.OWNER_NAME || 'ElitePro';
-global.botname = process.env.BOT_NAME || 'ELITE-PRO-V1';
+global.ownernumber = process.env.OWNER_NUMBER || '256785924981';
+global.ownername = process.env.OWNER_NAME || 'ACW MEDIA COMPANY';
+global.botname = process.env.BOT_NAME || 'ACW MEDIA COMPANY';
 
 // Default settings 
 global.prefa = process.env.PREFIX ? process.env.PREFIX.split(',') : ['', '!', '.', '#', '&'];
 // Settings: true=enable false=disable
-global.autoRecording = process.env.AUTO_RECORDING === 'true';
-global.autoTyping = process.env.AUTO_TYPING === 'true';
-global.autorecordtype = process.env.AUTO_RECORD_TYPE === 'true';
-global.autoread = process.env.AUTO_READ === 'true';
+global.autoRecording = process.env.AUTO_RECORDING === 'false';
+global.autoTyping = process.env.AUTO_TYPING === 'false';
+global.autorecordtype = process.env.AUTO_RECORD_TYPE === 'false';
+global.autoread = process.env.AUTO_READ === 'false';
 global.autobio = process.env.AUTO_BIO !== 'false'; // default true
 global.anti92 = process.env.ANTI_92 === 'true';
 global.autoswview = process.env.AUTO_SW_VIEW !== 'false'; // default true
 global.welcome = process.env.WELCOME !== 'false'; // default true
-global.autoreact = process.env.AUTO_REACT === 'true';
+global.autoreact = process.env.AUTO_REACT === 'false';
 global.autolikestatus = process.env.AUTO_LIKE_STATUS === 'true';
 
 // Thumbnail profile picture
